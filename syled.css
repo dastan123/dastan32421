@@ -1,0 +1,136 @@
+body {
+      font-family: 'Roboto', sans-serif;
+      background-color: rgb(13, 37, 65);
+      margin: 0;
+      padding: 0;
+ }
+ 
+ header {
+       width: 300px;
+       height: 1000px;
+       background-color: rgb(27, 32, 80);
+       margin-top: -25px;
+       margin-left: 50px;
+ }
+ 
+ .logo-tag {
+       font-size: 30px;
+       color: white;
+       padding-top: 20px;
+       margin-bottom: 400px;
+       margin-left: 40px;
+ }
+ 
+ .nav-list, li {
+       color: white;
+       list-style: none;
+       font-size: 18px;
+       margin-top: 15px;
+ }
+ 
+ .nav-list, li:hover {
+       color: grey;
+ }
+ 
+ .my-block > h4 {
+       color: red;
+       font-size: 17px;
+       margin-top: 250px;
+       margin-left: 40px;
+ }
+ 
+ .name-tag {
+       font-size: 40px;
+       margin-left: 40px;
+       margin-top: -15px;
+ 
+ }
+ 
+ .my-block > hr {
+       width: 50px;
+       border-color: red;
+       position: absolute;
+       top: 400px;
+       left: 40px;
+ }
+ 
+ .my-text {
+       font-size: 20px;
+       margin-top: 70px;
+       margin-left: 40px;
+ }
+ 
+ .btn {
+       width: 700px;
+       height: 60px;
+       background-color: red;
+       font-size: 20px;
+       position: absolute;
+       top: 930px;
+       left: 1100px;
+       border: none;
+       background-color: rgb(27, 32, 80);
+       color: white;
+ }
+ 
+ .btn-1 {
+       width: 700px;
+       height: 60px;
+       background-color: red;
+       font-size: 20px;
+       position: absolute;
+       top: 930px;
+       left: 400px;
+       border: none;
+       color: white;
+ }
+ 
+ img {
+       position: absolute;
+       left: 500px;
+       top: 0;
+ }
+ 
+ main {
+       background-color: #fff;
+ }
+ 
+ .my-block {
+       height: 900px;
+       position: absolute;
+       top: 30px;
+       left: 400px;
+       background-color: #fff;
+       width: 1300px;
+ }
+ 
+ .my-section {
+       background-color: #fff;
+ }
+ 
+ .about-tag {
+       font-size: 40px;
+ }
+ 
+ .about-block > hr {
+       width: 40px;
+       border-color: red;
+       position: relative;
+       right:900px;
+ }
+ 
+ .job-text {
+       font-size: 20px;
+ }
+ 
+ .about-me-text {
+       font-size: 15px;
+ }
+ 
+ .about-block {
+       margin-left: 50px;
+ }
+ 
+ .rating-container {
+       margin-left: 50px;
+ }
