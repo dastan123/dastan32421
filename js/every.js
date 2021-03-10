@@ -27,12 +27,15 @@ function postData(form) {
                   if (request.status === 200) {
                         console.log(request.response);
                         statusMessage.textContent = message.success;
+                        form.reset();
+                        setTimeout(() => {
+                              statusMessage.remove();
+                        }, 2000);
                   } else {
                         statusMessage.textContent = message.fail;
                   }
             });
       });
-
 
 
 }
