@@ -60,7 +60,7 @@ body {
        margin-left: 40px;
  }
  
- .btn {
+ .btn-modal {
        width: 700px;
        height: 60px;
        background-color: red;
@@ -134,3 +134,74 @@ body {
  .rating-container {
        margin-left: 50px;
  }
+
+ .modal {
+      position: absolute;
+      top: 500px;
+      left: 500px;
+      z-index: 1;
+       background-color: black;
+       text-align: center;
+       width: 300px;
+       height: 200px;
+ }
+
+ input[type="text"] {
+       width: 250px;
+       height: 30px;
+       margin-top: 20px;
+ }
+
+.btn-close {
+      width: 150px;
+      height: 40px;
+      background-color: white;
+      margin-top: 30px;
+      border: none;
+}
+
+.show {
+      display: block;
+}
+
+.hide {
+      display: none;
+}
+
+.success-tag {
+      color: white;
+      margin-top: 50px;
+}
+
+@media all and (max-width: 500px) {
+      header {
+            display: none;
+      }
+
+      .my-block {
+           left: 0;
+           width: 484px;
+           height: 500px;
+      }
+
+      .btn-1 {
+            width: 235px;
+            position: none;
+            left: 0;
+      }
+
+      .btn-modal {
+            width: 250px;
+            left: 234px;
+            background-color: lightblue;
+      }
+
+       
+ .about-block {
+      margin-top:990px;
+}
+
+      img {
+            display:none;
+      }
+}
