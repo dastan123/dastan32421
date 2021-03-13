@@ -3,6 +3,7 @@ body {
       background-color: rgb(13, 37, 65);
       margin: 0;
       padding: 0;
+      color: black;
  }
  
  header {
@@ -111,6 +112,33 @@ body {
  .about-tag {
        font-size: 40px;
  }
+
+ .about-us {
+      position: absolute;
+      top: 0;
+       background-color: white;
+       font-size: 25px;
+ }
+
+ .my-services {
+      position: absolute;
+      top: 0;
+       background-color: white;
+       font-size: 25px;
+ }
+
+ .contact-us {
+      position: absolute;
+      top: 0;
+      background-color: white;
+      font-size: 25px;
+}
+.portfolio {
+      position: absolute;
+      top: 0;
+      background-color: white;
+      font-size: 25px;
+}
  
  .about-block > hr {
        width: 40px;
@@ -142,8 +170,21 @@ body {
       z-index: 1;
        background-color: black;
        text-align: center;
-       width: 300px;
-       height: 200px;
+       width: 340px;
+       height: 300px;
+ }
+
+.black {
+      color: white;
+      background-color: black;
+}
+
+ .button {
+       width: 150px;
+       height: 40px;
+       background-color: red;
+       font-size: 17px;
+       color: white;
  }
 
  input[type="text"] {
@@ -152,7 +193,11 @@ body {
        margin-top: 20px;
  }
 
-.btn-close {
+h2 {
+      color: white;
+}
+
+ .btn-close {
       width: 150px;
       height: 40px;
       background-color: white;
@@ -168,10 +213,15 @@ body {
       display: none;
 }
 
+.active {
+      background-color: red;
+}
+
 .success-tag {
       color: white;
       margin-top: 50px;
 }
+
 
 @media all and (max-width: 500px) {
       header {
@@ -205,3 +255,4 @@ body {
             display:none;
       }
 }
+
